@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
 
 jobs:
+  runs-on: ubuntu-latest
+
   call:
-    runs-on: ubuntu-latest
-    timeout-minutes: 150
     uses: datdo178/github-actions/.github/called.yml@main
     with:
       GAROON_VERSION: 'F23.5'
