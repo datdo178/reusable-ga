@@ -5,7 +5,8 @@ on:
 
 jobs:
   call:
-    - name: Call the workflows
-      uses: datdo178/github-actions/.github/called.yml@main
-      with:
-        GAROON_VERSION: 'F23.5'
+    steps:
+      - name: Call the workflows
+        uses: datdo178/github-actions/.github/called.yml@main
+        with:
+          GAROON_VERSION: 'F23.5'
