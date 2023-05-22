@@ -8,10 +8,6 @@ jobs:
   call:
     runs-on: ubuntu-latest
     timeout-minutes: 150
-
-    steps:
-      - uses: actions/checkout@v3
-      - name: Call the workflows
-        uses: datdo178/github-actions/.github/called.yml@main
-        with:
-          GAROON_VERSION: 'F23.5'
+    uses: datdo178/github-actions/.github/called.yml@main
+    with:
+      GAROON_VERSION: 'F23.5'
