@@ -8,4 +8,4 @@ jobs:
   call:
     uses: datdo178/github-actions/.github/workflows/called.yml@main
     with:
-      GAROON_VERSION: 'F23.5'
+      GAROON_VERSION: 'F23.6'
