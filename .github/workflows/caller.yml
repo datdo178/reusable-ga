@@ -6,6 +6,8 @@ on:
 
 jobs:
   call:
-    uses: datdo178/github-actions/.github/called.yml@main
+    runs-on: ubuntu-latest
+    uses: datdo178/github-actions/.github/called.yml
     with:
+      branch_name: main
       GAROON_VERSION: 'F23.5'
