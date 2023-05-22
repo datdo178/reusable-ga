@@ -8,4 +8,5 @@ on:
 
 jobs:
   call:
+    runs-on: ubuntu-latest
     uses: datdo178/github-actions/.github/workflows/called.yml@main
