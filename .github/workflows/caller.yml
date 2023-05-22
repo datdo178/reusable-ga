@@ -1,6 +1,8 @@
 name: Caller
 
 on:
+  pull_request:
+    types: [opened, synchronize, reopened]
   push:
   workflow_dispatch:
 
