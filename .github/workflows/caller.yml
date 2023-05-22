@@ -1,0 +1,10 @@
+name: Caller
+
+on:
+  push:
+
+jobs:
+  call:
+    - uses: datdo178/github-actions/.github/called.yml
+      with:
+        GAROON_VERSION: 'F23.5'
