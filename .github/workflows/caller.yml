@@ -5,6 +5,9 @@ on:
 
 jobs:
   call:
+    runs-on: [ self-hosted, internal-network ]
+    timeout-minutes: 150
+
     steps:
       - name: Call the workflows
         uses: datdo178/github-actions/.github/called.yml@main
