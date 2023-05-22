@@ -5,8 +5,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  runs-on: ubuntu-latest
-
   call:
     uses: datdo178/github-actions/.github/called.yml@main
     with:
